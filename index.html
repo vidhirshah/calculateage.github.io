@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./myScript.js"></script>
+</head>
+
+<body>
+    <h1>Age Calculator</h1>
+    <p>The Age Calculator can calculate your age in terms of Years, Months and Days.</p>
+    <div class="container mbox">
+        <div class="row mrow">
+            <div class="col-md-4 a">
+                <h2>Important Instructions</h2>
+                <ol>
+                    <li>Current Year must be greater than or equal to Birth Year</li>
+                    <li>Enter Followimg numbers for respective months<br>
+                        <ul>
+                            <li>1 -> Jannuary</li>
+                            <li>2 -> Feburary</li>
+                            <li>3 -> March</li>
+                            <li>4 -> April</li>
+                            <li>5 -> May</li>
+                            <li>6 -> June</li>
+                            <li>7 -> July</li>
+                            <li>8 -> August</li>
+                            <li>9 -> September</li>
+                            <li>10 -> Octomber</li>
+                            <li>11 -> November</li>
+                            <li>12 -> December</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-md-8 b">
+                <h2>Enter The Following Details</h2>
+                <div class="row arow">
+                    <div class="col-4">
+                        <input type="number" id="year" placeholder="Birth Year">
+                    </div>
+                    <div class="col-4">
+                        <input type="number" id="month" placeholder="Birth Month">
+                    </div>
+                    <div class="col-4">
+                        <input type="number" id="date" placeholder="Birth Date">
+                    </div>
+                </div>
+                <div class="row brow">
+                    <div class="col-4">
+                        <input type="number" id="cyear" placeholder="Current Year">
+                    </div>
+                    <div class="col-4">
+                        <input type="number" id="cmonth" placeholder="Current Month">
+                    </div>
+                    <div class="col-4">
+                        <input type="number" id="cdate" placeholder="Current Date">
+                    </div>
+                </div>
+                <div class="btn">
+                    <button onclick="nodays()">Calculate Your  Age</button>
+                    <p id="final"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

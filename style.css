@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+.a{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.b{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.mbox{
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 100%;
+}
+.arow input{
+    margin-top: 20px;
+    width: 90%;
+}
+.mrow{
+    box-sizing: border-box;
+}
+.brow input{
+    margin-top: 20px;
+    width: 90%;
+}
+button{
+    background-color: black;
+    color:white ;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 25px;
+}
+ol{
+    margin-left: 10px;
+}
+.btn p{
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
